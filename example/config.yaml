@@ -14,5 +14,5 @@ init: false
 map:
   - share:rw
 options:
-  message: "Hello world...",
+  message: "Hello world..."
 
