@@ -1,9 +1,9 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
-name: Example add-on
-version: "1.2.0"
-slug: example
-description: Example add-on
-url: "https://github.com/home-assistant/addons-example/tree/main/example"
+name: Emily
+version: "0.1.0"
+slug: emily
+description: Emily add-on
+url: "https://github.com/Ak47Mark/home-assistant-emily.git"
 arch:
   - armhf
   - armv7
@@ -14,7 +14,5 @@ init: false
 map:
   - share:rw
 options:
-  message: "Hello world..."
-schema:
-  message: "str?"
-image: "ghcr.io/home-assistant/{arch}-addon-example"
+  message: "Hello world...",
+
